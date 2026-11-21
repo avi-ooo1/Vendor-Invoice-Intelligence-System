@@ -27,7 +27,8 @@ def predict_freight_cost(input_data):
     """
     model = load_model()
     input_df = pd.DataFrame(input_data)
-    input_df['Predicted_Freight'] = model.predict(input_df).round()
+    features = input_df[["Dollars"]] if "Dollars" in input_df.columns else input_df
+    input_df['Predicted_Freight'] = model.predict(features).round()
     return input_df
 
 if __name__ == "__main__":
