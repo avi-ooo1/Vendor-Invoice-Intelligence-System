@@ -58,3 +58,12 @@ def predict_invoice_flag(input_data):
     return input_df
 
 if __name__ == "__main__":
+    sample_data = {
+        "invoice_quantity": [50],
+        "invoice_dollars": [352.95],
+        "Freight": [1.73],
+        "total_item_quantity": [162],
+        "total_item_dollars": [2476.0]
+    }
+    prediction = predict_invoice_flag(sample_data)
+    print(prediction)
