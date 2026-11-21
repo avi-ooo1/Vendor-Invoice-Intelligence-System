@@ -21,7 +21,7 @@ This project provides an AI-driven solution featuring:
 ## 📁 Repository Structure
 
 ```text
-Vendor-Invoice_Intelligence-System/
+Vendor-Invoice-Intelligence-System/
 ├── app.py                                # Streamlit Web Portal
 ├── README.md                             # Project Documentation
 ├── .gitignore                            # Git Ignore Rules
@@ -59,8 +59,8 @@ Vendor-Invoice_Intelligence-System/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/avi-ooo1/Vendor-Invoice_Intelligence-System.git
-cd Vendor-Invoice_Intelligence-System
+git clone https://github.com/avi-ooo1/Vendor-Invoice-Intelligence-System.git
+cd Vendor-Invoice-Intelligence-System
 ```
 
 ### 2. Set Up Virtual Environment
